@@ -16,6 +16,7 @@ import {
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import Image from 'next/image';
 
 export default function PersonalWebsite() {
 	const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -314,10 +315,10 @@ export default function PersonalWebsite() {
 							About Me
 						</h2>
 						<p className='text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed'>
-							I'm a passionate developer with 5+ years of experience creating
-							innovative web applications and user interfaces. I love turning
-							complex problems into simple, beautiful designs that provide
-							exceptional user experiences.
+							I&apos;m a passionate developer with 5+ years of experience
+							creating innovative web applications and user interfaces. I love
+							turning complex problems into simple, beautiful designs that
+							provide exceptional user experiences.
 						</p>
 					</motion.div>
 
@@ -333,9 +334,11 @@ export default function PersonalWebsite() {
 								animate={{ scale: [1, 1.1, 1], opacity: [0.3, 0.6, 0.3] }}
 								transition={{ duration: 4, repeat: Number.POSITIVE_INFINITY }}
 							/>
-							<img
+							<Image
 								src='/Image/suraj.jpeg'
 								alt='Profile'
+								width={400} // or your preferred width
+								height={400} // or your preferred height
 								className='rounded-2xl shadow-2xl w-full max-w-md mx-auto relative z-10'
 							/>
 							<motion.div
@@ -568,11 +571,11 @@ export default function PersonalWebsite() {
 						transition={{ duration: 0.8 }}
 						viewport={{ once: true }}>
 						<h2 className='text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent'>
-							Let's Work Together
+							<p>Let&apos;s Work Together</p>
 						</h2>
 						<p className='text-lg text-gray-300 mb-12 max-w-2xl mx-auto'>
-							Ready to bring your ideas to life? Let's discuss your next project
-							and create something amazing together.
+							Ready to bring your ideas to life? Let&apos;s discuss your next
+							project and create something amazing together.
 						</p>
 
 						<div className='flex flex-col sm:flex-row gap-6 justify-center items-center mb-12'>

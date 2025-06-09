@@ -249,8 +249,8 @@ export default function ContactPage() {
 							</motion.div>
 						</h1>
 						<p className='text-xl text-gray-300 max-w-3xl mx-auto relative z-10'>
-							Have a project in mind? Let's discuss how we can work together to
-							bring your ideas to life.
+							Have a project in mind? Let&apos;s discuss how we can work
+							together to bring your ideas to life.
 						</p>
 					</motion.div>
 
@@ -500,8 +500,9 @@ export default function ContactPage() {
 										</h4>
 									</div>
 									<p className='text-gray-300 text-sm'>
-										I'm currently accepting new projects and collaborations.
-										Let's create something amazing together!
+										I&apos;m currently accepting new projects and
+										collaborations. Let&apos;s create something amazing
+										together!
 									</p>
 								</CardContent>
 							</Card>
@@ -520,22 +521,22 @@ export default function ContactPage() {
 						<div className='grid md:grid-cols-2 gap-6'>
 							{[
 								{
-									question: "What's your typical response time?",
+									question: 'What&apos;s your typical response time?',
 									answer:
 										'I usually respond to emails within 24 hours during business days.',
 									icon: '⚡',
+								},
+								{
+									question: 'What&apos;s your project timeline?',
+									answer:
+										'Project timelines vary depending on scope and complexity. I&apos;ll provide a detailed timeline during our initial consultation.',
+									icon: '📅',
 								},
 								{
 									question: 'Do you work with international clients?',
 									answer:
 										'Yes! I work with clients from all around the world and across different time zones.',
 									icon: '🌍',
-								},
-								{
-									question: "What's your project timeline?",
-									answer:
-										"Project timelines vary depending on scope and complexity. I'll provide a detailed timeline during our initial consultation.",
-									icon: '📅',
 								},
 								{
 									question: 'Do you offer ongoing support?',
